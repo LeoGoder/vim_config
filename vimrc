@@ -1,6 +1,8 @@
 set mouse=a
 syntax on
 set relativenumber
+set ttimeout
+set ttimeoutlen=100
 set laststatus=2
 set ruler
 set statusline=%F%m%r%h%w\ [%Y]\ [%{&ff}]\ %=\ Ligne:\ %l/%L\ [%p%%]\ Col:\ %c
