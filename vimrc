@@ -3,6 +3,7 @@ set relativenumber
 syntax on
 set ruler
 set ttimeoutlen=50
+set laststatus=2
 " --- Configuration générale ---
 set tabstop=4      " Un caractère tab occupe 4 colonnes
 set shiftwidth=4   " Taille de l'indentation automatique
