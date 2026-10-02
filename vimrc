@@ -12,4 +12,4 @@ set expandtab      " Transforme les tabulations en espaces
 " --- Exceptions pour C, H et Makefile ---
 " On désactive expandtab pour garder de vraies tabulations
 autocmd FileType c,make setlocal noexpandtab
-
+tnoremap <Esc> <C-\><C-N>
