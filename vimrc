@@ -18,3 +18,6 @@ highlight LineNr ctermfg=DarkGray guifg=DarkGray
 
 autocmd FileType c,make setlocal noexpandtab
 tnoremap <Esc> <C-\><C-N>
+
+let mapleader = " "
+nnoremap <leader>e :Explore<CR>
