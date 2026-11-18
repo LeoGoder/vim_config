@@ -43,14 +43,10 @@ vnoremap > >gv
 
 nnoremap <silent> <leader>h :nohlsearch<CR>
 
-if (has("termguicolors"))
+if (has("termguicolors") && has("zaibatsu"))
     set termguicolors
     autocmd ColorScheme * for g in ['Normal','NonText','NormalNC','netrwDir','EndOfBuffer','SignColumn'] | exec 'hi' g 'guibg=NONE ctermbg=NONE' | endfor
-    try
-        colorscheme  zaibatsu
-    catch
-        colorscheme desert
-    endtry
+    colorscheme  zaibatsu
 endif
 
 set noswapfile
